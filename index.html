@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Punithaa Bhagyalakshmi G – Full Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="loader" aria-hidden="true"><span>P</span><span style="animation-delay:.15s;color:var(--pink)">.</span></div>
+<div id="bar"></div><div id="cur"></div><div id="toast" role="status">Email copied</div>
+
+<nav aria-label="Sections">
+  <a href="#top">Home</a><a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#journey">Journey</a><a href="#contact">Contact</a>
+  <button id="theme" type="button" aria-label="Switch light or dark theme">◐</button>
+</nav>
+
+<header class="hero" id="top">
+  <canvas id="paint" aria-hidden="true"></canvas>
+  <div class="hint"><button id="clear" type="button">Clear canvas</button></div>
+  <div class="wrap">
+    <h1 id="name" aria-label="Punithaa Bhagyalakshmi G">Punithaa<br>Bhagyalakshmi G</h1>
+    <div class="role"><span id="typed"></span><i></i></div>
+  </div>
+</header>
+
+<div class="mq" aria-hidden="true"><div id="mq"></div></div>
+
+<main>
+<section id="about"><div class="wrap about">
+  <div class="rv">
+    <h2>Hi, I’m Punithaa.</h2>
+    <p>I’m a second-year Computer Science and Engineering student at Sri Sairam Engineering College, Chennai. I build web apps with React, TypeScript, Python and SQL, and I like adding AI where it makes something easier for a real person.</p>
+    <p>Outside code, I draw, paint, cook and read. That’s why I care about design as much as logic.</p>
+  </div>
+  <div class="stats">
+    <div class="stat rv" style="--d:.1s"><b data-n="9.3" data-dec="1">0</b><span>CGPA, B.E. CSE (2025–2029)</span></div>
+    <div class="stat rv" style="--d:.2s"><b data-n="3">0</b><span>Projects built, including a Smart India Hackathon entry</span></div>
+    <div class="stat rv" style="--d:.3s"><b data-n="4">0</b><span>Languages: Python, C, JavaScript, SQL</span></div>
+  </div>
+</div></section>
+
+<section id="projects"><div class="wrap">
+  <h2 class="rv">Things I’ve built</h2>
+  <div class="proj">
+    <article class="p rv">
+      <header><h3>Genogame</h3><span class="tag">Smart India Hackathon</span></header>
+      <p class="sum">An AI cognitive gaming and memory assistance platform made for elderly users.</p>
+      <div class="more"><ul>
+        <li>Supports memory, attention, response speed and behavioural assessment.</li>
+        <li>Multilingual interaction, memory-card and story-based games.</li>
+        <li>Camera-based hand-gesture gameplay, reminders, and performance analytics for patient and doctor views.</li>
+      </ul></div>
+      <button type="button" aria-expanded="false"><span>+</span> Details</button>
+    </article>
+    <article class="p rv">
+      <header><h3>StudyFlow AI</h3><span class="tag">Personal learning companion</span></header>
+      <p class="sum">An AI study planner that turns a syllabus into a personalised plan.</p>
+      <div class="more"><ul>
+        <li>Task tracking, exam preparation and progress analytics.</li>
+        <li>Pomodoro focus tools, streaks and achievements.</li>
+        <li>Calendar and task management, authentication and cloud storage, with AI-assisted learning workflows.</li>
+      </ul></div>
+      <button type="button" aria-expanded="false"><span>+</span> Details</button>
+    </article>
+    <article class="p rv">
+      <header><h3>Stock Portfolio Tracker</h3><span class="tag">Beginner-friendly app</span></header>
+      <p class="sum">Keeps track of stocks, quantities and total portfolio value.</p>
+      <div class="more"><ul>
+        <li>Structured data handling behind the scenes.</li>
+        <li>Simple, user-oriented views that are easy to read.</li>
+      </ul></div>
+      <button type="button" aria-expanded="false"><span>+</span> Details</button>
+    </article>
+  </div>
+</div></section>
+
+<section id="skills"><div class="wrap">
+  <h2 class="rv">What I work with</h2>
+  <div class="skills">
+    <div class="sk rv"><h3>Languages</h3><div><span>Python</span><span>C</span><span>JavaScript</span><span>SQL</span></div></div>
+    <div class="sk rv" style="--d:.08s"><h3>Web</h3><div><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>TypeScript</span><span>Tailwind CSS</span></div></div>
+    <div class="sk rv" style="--d:.16s"><h3>Backend and data</h3><div><span>MySQL</span><span>Supabase</span><span>Flask</span></div></div>
+    <div class="sk rv" style="--d:.24s"><h3>Tools</h3><div><span>Git</span><span>GitHub</span><span>VS Code</span><span>Vite</span><span>Canva</span><span>PowerPoint</span></div></div>
+    <div class="sk rv" style="--d:.32s"><h3>Core</h3><div><span>Data Structures and Algorithms</span><span>Problem solving</span><span>Software fundamentals</span></div></div>
+  </div>
+</div></section>
+
+<section id="journey"><div class="wrap">
+  <h2 class="rv">Journey so far</h2>
+  <div class="tl" id="tl"><i></i>
+    <div class="rv"><h3>B.E. Computer Science and Engineering</h3><p>Sri Sairam Engineering College, Chennai. 2025 to 2029, now in 2nd year with a 9.3 CGPA.</p></div>
+    <div class="rv"><h3>Hackathons and student tech</h3><p>College and external hackathons, Anna University technical activities, design sprints and coding initiatives.</p></div>
+    <div class="rv"><h3>IEEE conference, Bengaluru</h3><p>Attended AisyWLC to learn about current engineering and technology work.</p></div>
+  </div>
+  <div class="certs">
+    <div class="rv">Introduction to Modern AI<small>Cisco</small></div>
+    <div class="rv" style="--d:.07s">Python Concurrent Programming<small>Skillsoft</small></div>
+    <div class="rv" style="--d:.14s">Data Analytics Job Simulation<small>Forage, TATA</small></div>
+    <div class="rv" style="--d:.21s">Think Beyond / 1M1B<small>IBM</small></div>
+    <div class="rv" style="--d:.28s">Technical courses<small>NPTEL, Coursera, Skillrack, GUVI, Simplilearn</small></div>
+  </div>
+</div></section>
+</main>
+
+<footer id="contact" class="contact"><div class="wrap" style="padding-top:96px;padding-bottom:72px">
+  <h2 class="rv">Let’s build something.</h2>
+  <div class="links">
+    <a class="mag" href="mailto:sec25cs120@sairamtap.edu.in">Email me</a>
+    <button class="mag" id="copy" type="button">Copy email</button>
+    <a class="mag" href="https://github.com/punithaabhagyalakshmi" target="_blank" rel="noopener">GitHub</a>
+    <a class="mag" href="https://linkedin.com/in/punithaa-bhagyalakshmi-g-bb4a5537b" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="mag" href="tel:+918056271738">Call 8056271738</a>
+  </div>
+  <p>Chennai, Tamil Nadu. I speak English and Tamil.</p>
+</div></footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
